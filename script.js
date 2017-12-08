@@ -1,3 +1,7 @@
+"use strict";
+
+var i;
+
 var allElements = document.getElementsByClassName('button');
 
 for(i = 0; i <= allElements.length; i++){
