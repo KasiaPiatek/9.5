@@ -1,10 +1,8 @@
 "use strict";
 
-var i;
+/*var allElements = document.getElementsByClassName('button');*/
 
-var allElements = document.getElementsByClassName('button');
-
-for(i = 0; i <= allElements.length; i++){
+for(var i = 0; i < allElements.length; i++){
 	alert(allElements[i].innerText);
 
 }
