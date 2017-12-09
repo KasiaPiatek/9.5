@@ -1,8 +1,8 @@
 "use strict";
 
-/*var allElements = document.getElementsByClassName('button');*/
+var withButtonClass = document.getElementsByClassName('button');
 
-for(var i = 0; i < allElements.length; i++){
-	alert(allElements[i].innerText);
+for(var i = 0; i < withButtonClass.length; i++){
+	alert(withButtonClass[i].innerText);
 
 }
